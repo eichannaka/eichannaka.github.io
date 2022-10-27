@@ -1,0 +1,61 @@
+.container__footer {
+    width: 100%;
+    padding: 40px 0;
+    background: #874421;
+    margin-top: 40px;
+  }
+
+  .container__footer .logo__footer {
+    text-align: center;
+  }
+
+  .container__footer .logo__footer img {
+    width: 250px;
+  }
+
+  .container__footer .redes__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+ .container__footer .redes__footer a {
+    text-decoration: none;
+ }
+
+
+.icon__redes {
+
+  @extend %iconos;
+}
+
+
+
+  
+  .container__footer h4 {
+    justify-content: end;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 40px;
+    color: #d3d3d3;
+    font-weight: 500;
+  }
+
+
+  $redes: (
+    facebook: #3b5998,
+    instagram: #c13584,
+    handshake: #ecb731,
+    youtube: #ff0000,
+
+  );
+
+@each $redsocial, $color in $redes {
+    .bi-#{$redsocial}:hover {
+        background-color: $color;
+        color: white;
+        transition: 0.3s;
+    }
+}

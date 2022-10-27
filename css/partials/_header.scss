@@ -1,0 +1,32 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 0.6s all ease;
+    background: #cd966c;
+}
+
+
+.navbar-dark {
+    --bs-navbar-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    padding: 15px 45px;
+
+    .navbar-toggler {
+        box-shadow: none !important;
+    }
+
+    a .logo {
+        width: 150px;
+    }
+
+    .nav__center {
+        justify-content: end;
+
+        .nav-item {
+            margin: 0px 10px;
+        }
+    } 
+}

@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    width: 100%;
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        margin: 0;
+    }
+
+
+
+    .btn {
+        box-shadow: none !important;
+        display: block;
+        margin: 0;
+    }
+
+}
+
+.icono_compra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono_compra a {
+    text-decoration: none;
+
+}
+.icono_compra i {
+   width: 80px;
+   height: 80px;
+}
+
+.compras {
+    @extend %compra
+}
+
+$icono_bag: (
+    bag: #007724
+);
+
+@each $icono,$color in $icono_bag {
+    .bi-#{$icono}:hover {
+        background-color: $color;
+        color: white;
+        transition: 0.3s;
+    }
+}

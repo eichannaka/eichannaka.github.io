@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+$fontMontserrat: 'Montserrat';
+$mainColor: '#0c0c0c';
+
+%iconos {
+    font-size: 20px;
+    background: #efefef;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+    transition: 0.3s;
+}
+%compra{
+    font-size: 20px;
+    background: #efefef;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #070505;
+    transition: 1;
+}

@@ -1,0 +1,46 @@
+.grid {
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2"
+    "item1 item3";
+
+    .grid__item {
+        border-radius: 1rem;
+        background-size: cover;
+        background-position: center;
+        color: #000000;
+        font-family: 'Montserrat', cursive;
+        font-weight: 300;
+        padding: 1.5rem;
+        margin: 1rem;
+        height: auto;
+    }
+
+    .grid__item1 {
+        grid-area: item1;
+        background-image: url(../img/chemex.jpg);
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+    
+    .grid__item2 {
+        grid-area: item2;
+        background-image: url(../img/v60.jpg);
+        background-repeat: no-repeat;
+        height: 300px;
+        padding-bottom: 1rem;
+
+    }
+    
+    .grid__item3 {
+        grid-area: item3;
+        background-image: url(../img/aero.jpg);
+        background-repeat: no-repeat;
+        height: 300px;
+
+    }
+
+}

@@ -1,0 +1,14 @@
+@import "./partials/variables"; // SIEMPRE ARRIBA DE TODO
+
+@import "./partials/reset"; // SIEMPRE DEBAJO DE LAS VARIABLES Y ARRIBA DEL RESTO
+
+@import "./partials/header";
+@import "./partials/hero";
+@import "./partials/grid";
+@import "./partials/cards";
+@import "./partials/cards2";
+@import "./partials/trabajo";
+@import "./partials/contact";
+@import "./partials/footer";
+@import "./partials/responsive";
+

@@ -1,0 +1,49 @@
+.title {
+    display: flex;
+    color: #0c0c0c;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.trabajo {
+    padding: 6rem;
+    padding-top: 0;
+    .inner {
+        background-color: #9a5822;
+        display: flex;
+        padding: 2rem;
+        box-shadow: 15px 15px 30px #4b4b4b;
+
+        .inner__left {
+            padding-block: 2rem;
+            padding-right: 2rem;
+            flex: 1.5;
+        }
+
+        .inner__left  h5{
+            font-family: 'Montserrat';
+            font-weight: 800;
+            font-size: 2rem;
+            color: #000000;
+            letter-spacing: 2px;
+        }
+              
+        .inner__left p {
+            font-family: 'Montserrat';
+            color: #353333;
+            font-size: 1.4rem;
+        }
+
+        .inner__right {
+            flex: 1.25;
+            min-width: 0;
+        }
+
+        
+        .inner__right img {
+            max-width: 100%;
+        }
+    }
+}
